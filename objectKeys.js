@@ -6,3 +6,7 @@ const shop = {
 
 const keys = Object.keys(shop);
 console.log(keys);
+
+const values = Object.values(shop);
+console.log(values[1]);
+console.log(typeof(values[1]));
